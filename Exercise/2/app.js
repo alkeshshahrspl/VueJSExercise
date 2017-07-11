@@ -1,6 +1,15 @@
 new Vue({
         el: '#exercise',
         data: {
-            value: ''
-        }
+            value: '',
+        },
+        methods:{
+            showAlert: function() {
+                alert("Alert message");
+            },
+            setInputValue: function(event) {
+                this.value = event.target.value;
+            }
+        },
     });
+    
