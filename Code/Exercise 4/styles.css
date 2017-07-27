@@ -1,0 +1,35 @@
+#effect {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.highlight {
+  background-color: red;
+  width: 200px !important;
+}
+
+.shrink {
+  background-color: gray;
+  width: 50px !important;
+}
+
+.red {
+  background: red;
+}
+
+.large {
+  height: 100px;
+  width: 200px;
+  border: 1px solid;
+}
+
+.border-right {
+  border-right: 4px solid black;
+}
+
+.empty-progress {
+  height: 34px;
+  border: 1px solid green;  
+  background: darkgray;
+}
