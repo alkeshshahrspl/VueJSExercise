@@ -12,6 +12,7 @@
         },
         computed: {
             stocks() {
+                debugger;
                  return this.$store.getters.stocks;
             }
         }
